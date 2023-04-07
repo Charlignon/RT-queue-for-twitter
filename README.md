@@ -2,7 +2,7 @@
 
 [![py](https://github.com/Charlignon/RT-queue-for-twitter/actions/workflows/scheduledRT.yml/badge.svg)](https://github.com/Charlignon/RT-queue-for-twitter/actions/workflows/scheduledRT.yml)
 
-This app was made to recreate on Twitter the queue system from Tumblr, which allow you to reblog/RT posts automatically at a set frequency.
+This app was made to recreate on Twitter the queue system from Tumblr, which allow you to reblog/RT posts automatically at a set frequency. It was created for the sake of the [@VoloStan](https://twitter.com/VoloStan) account on Twitter.
 I cannot use this app anymore for several reasons :
 - Twitter's Free plan was effectively put to an end, as we can only post and not retreive tweets now
 - The Basic plan is way to expensive for such a small scale project (I'm not paying $100 to post <750 tweets per month)
