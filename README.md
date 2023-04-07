@@ -18,13 +18,13 @@ This app is leveraging several tools to perform its tasks :
 - Periodically ran Github Actions, which prevent the need for running a bot on a server
 
 ## Setup
-- Fork this project
+- Fork this project (make it private to protect your tokens)
 - Login on [Tweetdeck](tweetdeck.twitter.com/) with [BetterTweetDeck](https://better.tw/) installed and switch to the legacy interface
 - Create a new Collection, open it on Twitter and copy the id from the URL
 - Assuming you already have a Twitter developer account and an project with Elevated access, go in you project settings and copy your keys and tokens
 - Fill in the blanks in the Python file
+- Download the repo, edit the python file to call only the `get_access_token()` method and run it. Fill in the blanks in your repo
 
 ## Tweaking the settings
 - In the Python file, you can adjust how many tweets are RT at once
 - In the .github/workflows/scheduledRT.yml file, you can set the RT frequency by changing the cron. Be mindful of Github's rate limiting on Actions
-
